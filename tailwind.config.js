@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: ['./*.html'], //where to look for the utility classes
   theme: {
     extend: {},
   },
